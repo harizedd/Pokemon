@@ -290,7 +290,7 @@ footer > div > div > a {
     }
 }
 
-/* @media (min-width: 721px) and (max-width: 1024px) {
+@media (min-width: 721px) and (max-width: 1024px) {
     .head {
         display: flex;
         flex-direction: row;
@@ -305,46 +305,17 @@ footer > div > div > a {
         width: 800px;
         max-height: 550px;
     }
-
+    
     .navigation {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
-
+    
     .line {
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        max-width: fit-content;
+        flex-direction: column;
     }
-    .squares {
-        position: relative;
-        min-width: 200px;
-        min-height: 200px;
-        margin: 10px;
-    }
-    
-    .pkm {
-        width: 175px;
-        height: 150px;
-        margin-top: -20px;
-    }
-    
-    .name {
-        font-weight: bold;
-        color: #454343;
-        position: sticky;
-        z-index: 999;
-    }
-    
-    .waves {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-    
+
     .cfooter {
         display: flex;
         flex-direction: row;
@@ -354,19 +325,5 @@ footer > div > div > a {
         width: 100%;
         max-width: fit-content;
     }
-    footer > div > div > p, span {
-        font-weight: bold;
-        font-size: 12px;
-    }
-    
-    footer > div > div > span {
-        font-size: 12px;
-    }
-    
-    footer > div > div > a {
-        margin: 0 5px 0 5px;
-        font-weight: 300;
-        font-size: 12px;
-        border-bottom: 1px solid;
-    }
-} */
+}
+
